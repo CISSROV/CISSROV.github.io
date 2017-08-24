@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page not found!</title>
+</head>
+
+
+<style type="text/css">
+	* {
+		font-family: 'Raleway';
+	}
+
+	body {
+		background-color: #00b8d4;
+		text-align: center;
+	}
+
+	.drops {
+		left: 35em;
+		top: 35em;
+		position: absolute;
+	} 
+
+	h1 {
+		position: relative;
+		color: #FFF;
+		font-size: 4em;
+	}
+	h2 {
+		position: relative;
+		top: -1.4em;
+		color: #FFF;
+		font-size: 2em;
+	}
+
+	
+
+	.uh {
+		padding-top: 12em;
+	}
+
+	.rovy {
+		z-index: 100;
+		position: absolute;
+		top: 10em;
+		left: 35em;
+		-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+	    -webkit-animation-duration: 2.2s; /* Safari 4.0 - 8.0 */
+	    -webkit-animation-delay: 2.3s; /* Safari 4.0 - 8.0 */
+	    -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    	animation-fill-mode: forwards;
+	    animation-name: example;
+	    animation-duration: 2.2s;
+	    animation-delay: 2.3s;
+	}
+
+	/*
+	h3 {
+		transition: all ease-in-out 2000ms;
+		position: absolute;
+		color: #FFF;
+		font-size: 2.3em;
+		top: 110em;
+		left: 17em;
+		transform: translateY(-100em);
+		-webkit-animation-name: hello; 
+	    -webkit-animation-duration: 4s;
+	    -webkit-animation-delay: 2.3s; 
+	    -webkit-animation-fill-mode: forwards;
+    	animation-fill-mode: forwards;
+	    animation-name: hello;
+	    animation-duration: 4s;
+	    animation-delay: 2.3s;
+
+	}
+
+	*/
+	
+
+	@-webkit-keyframes example {
+    0%   {position: absolute; top: 10em; left: 35em}
+    5%   {position: absolute; top: 10em; left: 35em}
+    10%  {-webkit-transform: rotate(40deg); position: absolute; top: 10em; left: 35em;}
+    35%  {-webkit-transform: rotate(90deg); left:45em; top:50em;}
+    100% {left: 0em; top:1000em;}
+
+
+    @-webkit-keyframes hello {
+    0% 	 {position: absolute; top: 100em;}
+    100% {position: absolute; top: 15em;}
+}
+
+
+</style>
+
+
+
+<body>
+	<div class="uh">
+		<h1>
+			404	
+		</h1>
+
+		<h2>
+			Uh oh	
+		</h2>
+		<div class="swing-up">
+			<!--<h3> We couldn't find your page!</h3>-->
+		</div>
+	</div>
+	<img src="img/rovy.png" class="rovy">
+	<img src="img/drop.gif" class="drops">
+</body>
