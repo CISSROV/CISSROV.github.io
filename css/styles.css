@@ -164,6 +164,8 @@ nav a:focus {
 }
 
 /* Dice */
+
+/* Dice */
 div div ol li#dice_list_item {
   list-style-type: none;
 }
@@ -175,7 +177,7 @@ div div ol li#dice_list_item {
   perspective: 400px;
   transform: translateX(-150px);
   background: #000;
-  filter: drop-shadow(1250px 0px 0px #fff);
+  filter: drop-shadow(82em 0px 0px #fff);
 }
 #ui .dice {
   transform-style: preserve-3d;
@@ -187,35 +189,35 @@ div div ol li#dice_list_item {
 }
 #ui .dice_list_item {
   position: absolute;
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   background: rgba(0, 110, 190, 0.6);
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 7rem;
+  font-size: 6rem;
   font-family: 'Dosis', sans-serif;
   color: rgba(250, 250, 250, 0.8);
   border-radius: 20px;
   border: 10px double rgba(255, 255, 255, 0.8);
 }
 #ui .dice_list_item[data-id='1'] {
-  transform: translateZ(75px);
+  transform: translateZ(65px);
 }
 #ui .dice_list_item[data-id='2'] {
-  transform: translateY(75px) rotateX(270deg);
+  transform: translateY(65px) rotateX(270deg);
 }
 #ui .dice_list_item[data-id='3'] {
-  transform: translateX(75px) rotateY(-270deg);
+  transform: translateX(65px) rotateY(-270deg);
 }
 #ui .dice_list_item[data-id='4'] {
-  transform: translateX(-75px) rotateY(-90deg);
+  transform: translateX(-65px) rotateY(-90deg);
 }
 #ui .dice_list_item[data-id='5'] {
-  transform: translateY(-75px) rotateX(90deg);
+  transform: translateY(-65px) rotateX(90deg);
 }
 #ui .dice_list_item[data-id='6'] {
-  transform: translateZ(-75px) rotateY(180deg);
+  transform: translateZ(-65px) rotateY(180deg);
   text-decoration: underline;
 }
 
