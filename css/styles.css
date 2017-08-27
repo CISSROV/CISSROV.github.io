@@ -26,6 +26,26 @@ url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.c
 
 
 
+.button-accent {
+	display: inline-block;
+	font-size: 1.2rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-width: 2px;
+	border-style: solid;
+	padding: .5em 1.75em;
+	border-color: #FFF; 
+	color: #FFF;
+	font-weight: 700;
+
+}
+
+.button-accent:hover,
+.butotn-accent:focus {
+	background: #FFF;
+	color: #000;
+}
+
 .title span {
 	font-weight: 300;
 	display: block;
@@ -190,14 +210,14 @@ footer {
 footer h1 {
 	color: #FFF;
 	font-weight: 300;
+	padding-bottom: 4em;
 
 }
 
 
 
 footer a {
-    text-decoration: none;
-    color: #fff;
+    
 }
 footer p > footer a:hover{
     color: #d9d9d9;
@@ -217,7 +237,7 @@ footer h6 {
 ._14 {
     font-size: 1.4em;
     color: #FFF;
-    padding-top: 5em;
+    padding-top: 2em;
     text-align: center;
 }
 footer ul {
